@@ -18,11 +18,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class Multiplier {
     /**
-     * TODO: Add an annotation over this Adder field to achieve field injection:
+     * TO DO: Add an annotation over this Adder field to achieve field injection:
      *
      * Generally, field injection is not recommended, but it works for this example.
      * @param adder
      */
+    @Autowired
     Adder adder;
 
     /**
